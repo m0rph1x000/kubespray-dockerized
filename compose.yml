@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  kubesparay:
+    build: .
+    image: "ansible-kubesparay"
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./kubespray:/kubespray:rw
