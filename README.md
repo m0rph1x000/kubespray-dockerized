@@ -8,7 +8,7 @@ This repository is included a Dockerfile that consists of the following, and a `
 ## Usage
 First, clone the repository by issuing the following command:
 ```
-git clone link
+git clone https://github.com/m0rph1x000/kubespray-dockerized.git
 ```
 
 Second, run the `docker-compose` command by issuing (following command build the Dockerfile itself.):
